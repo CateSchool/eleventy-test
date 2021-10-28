@@ -12,4 +12,11 @@ module.exports = function (eleventyConfig) {
             'dd LLL yyyy'
         );
     });
+
+    return {
+        dir: {
+          input: "views",
+          output: "dist"
+        }
+      }
 };
